@@ -1,6 +1,6 @@
 # SocketSpy
 
-PyPortScanner is a Python-based port scanning tool that allows you to scan one or multiple targets for open ports on specified port ranges.
+SocketSpy is a Python-based port scanning tool that allows you to scan one or multiple targets for open ports on specified port ranges.
 
 ## Features
 
@@ -14,13 +14,13 @@ PyPortScanner is a Python-based port scanning tool that allows you to scan one o
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/pyportscanner.git
+    git clone https://github.com/yourusername/SocketSpy.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd pyportscanner
+    cd SocketSpy
     ```
 
 3. Install dependencies:
@@ -34,19 +34,19 @@ PyPortScanner is a Python-based port scanning tool that allows you to scan one o
 1. Scan a single target:
 
     ```bash
-    python portscanner.py target_ip_address -p port_range
+    python SocketSpy.py target_ip_address -p port_range
     ```
 
 2. Scan multiple targets:
 
     ```bash
-    python portscanner.py target1_ip_address,target2_ip_address -p port_range
+    python SocketSpy.py target1_ip_address,target2_ip_address -p port_range
     ```
 
 3. Use port ranges:
 
     ```bash
-    python portscanner.py target_ip_address -p start_port-end_port
+    python SocketSpy.py target_ip_address -p start_port-end_port
     ```
 
 ## Contributing
