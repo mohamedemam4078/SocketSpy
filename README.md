@@ -14,7 +14,7 @@ SocketSpy is a Python-based port scanning tool that allows you to scan one or mu
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/SocketSpy.git
+    git clone https://github.com/mohamedemam4078/SocketSpy.git
     ```
 
 2. Navigate to the project directory:
@@ -41,12 +41,6 @@ SocketSpy is a Python-based port scanning tool that allows you to scan one or mu
 
     ```bash
     python SocketSpy.py target1_ip_address,target2_ip_address -p port_range
-    ```
-
-3. Use port ranges:
-
-    ```bash
-    python SocketSpy.py target_ip_address -p start_port-end_port
     ```
 
 ## Contributing
